@@ -1,0 +1,91 @@
+body
+{
+  background-image: url("../images/mustang-5.jpg");
+
+  /* the follow is the code to have the image display as a full page */
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.color
+{
+  opacity: 0.1;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.align-left
+{
+  float: left;
+
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.align-right
+{
+  float: right;
+
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#container section:nth-child(2n)
+{
+  background: black;
+  opacity: 0.5;
+}
+
+#container
+{
+    width: 500px;
+
+    font-family: 'Jura', sans-serif;
+
+    background: #1D1E1F;
+
+
+    margin: 100px auto 100px auto;
+
+    border-radius: 40px 40px 0 0;
+
+    color: white;
+
+    padding: 40px;
+}
+
+
+p
+{
+  font-size: 16px;
+}
+
+h1
+{
+  padding: 30px;
+  font-size: 48px;
+
+  text-align: center;
+}
+
+h2
+{
+  padding: 15px;
+  font-size: 24px;
+
+  text-align: center;
+}
